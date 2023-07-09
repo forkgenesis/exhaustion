@@ -14,7 +14,7 @@ public class Exhaustion {
     public static final Logger LOGGER = LoggerFactory.getLogger("exhaustion");
 
     public Exhaustion() {
-        LOGGER.info("Exhaustion запущен!");
+        LOGGER.info("Exhaustion is on!");
     }
 }
 // Параметр выносливости
