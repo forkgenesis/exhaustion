@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="All rights reserved"
+
+[[mods]]
+modId="exhaustion"
+version="1.0.0"
+displayName="Exhaustion"
+
+logoFile="exhaustion.png"
+authors="Marrs73, ForkGenesis"
+description='''
+This mod adds exhaustion mechanic to Minecraft.
+Этот мод добавляет механику выносливости в Майнкрафт.
+'''
+
+[[dependencies.exhaustion]]
+    modId="forge"
+    mandatory=true
+    versionRange="[40,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.exhaustion]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2,1.19)"
+    ordering="NONE"
+    side="BOTH"
