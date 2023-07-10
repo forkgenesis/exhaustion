@@ -1,3 +1,4 @@
+// Тип, используемый модом для хранения значения выносливости для каждого игрока
 package vpgel.exhaustion;
 
 import net.minecraft.world.entity.player.Player;

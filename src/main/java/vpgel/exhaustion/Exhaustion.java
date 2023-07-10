@@ -1,3 +1,4 @@
+// Главный файл мода Exhaustion
 package vpgel.exhaustion;
 
 import net.minecraftforge.common.MinecraftForge;
@@ -7,11 +8,18 @@ import org.slf4j.LoggerFactory;
 
 @Mod("exhaustion")
 public class Exhaustion {
+    /** LOGGER - утилита для отправки отладочных сообщений в консоль Minecraft
+     */
     public static final Logger LOGGER = LoggerFactory.getLogger("Exhaustion");
+    /** eventHandler - обработчик событий мода Exhaustion
+     */
     public static EventHandler eventHandler = new EventHandler();
 
+    /**Функция, инициализирующая мод Exhaustion
+     */
     public Exhaustion() {
         MinecraftForge.EVENT_BUS.register(eventHandler);
+
         LOGGER.info("Exhaustion is initialized!");
     }
 }
