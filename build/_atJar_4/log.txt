@@ -1,7 +1,0 @@
-Java Launcher: /usr/lib/jvm/java-17-openjdk/bin/java
-Arguments: '--inJar, /home/vpgel/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.18.2-40.2.9/forge-1.18.2-40.2.9-injected.jar, --outJar, /home/vpgel/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.18.2-40.2.9_mapped_official_1.18.2/forge-1.18.2-40.2.9_mapped_official_1.18.2.jar, --logFile, accesstransform.log, --atFile, /home/vpgel/.minecraft/mod-dev/exhaustion-1.18.2/build/_atJar_4/parent_at.cfg'
-Classpath:
- - /home/vpgel/.gradle/caches/forge_gradle/maven_downloader/net/minecraftforge/accesstransformers/8.0.7/accesstransformers-8.0.7-fatjar.jar
-Working directory: /home/vpgel/.minecraft/mod-dev/exhaustion-1.18.2/build/_atJar_4
-Main class: net.minecraftforge.accesstransformer.TransformerProcessor
-====================================
